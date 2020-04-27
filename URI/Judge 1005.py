@@ -1,0 +1,5 @@
+a= float(input())
+b=float(input())
+peso = (3.5, 7.5)
+x = ((a * peso[0]) + (b * peso[1])) / (peso[0] + peso[1])
+print("MEDIA = %.5f" %x)

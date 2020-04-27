@@ -1,0 +1,6 @@
+point1 = input().split()
+x1,y1=float(point1[0]),float(point1[1])
+point2 = input().split()
+x2,y2=float(point2[0]),float(point2[1])
+Distance =(((x2-x1)**2)+((y2-y1)**2))**(1/2)
+print("%.4f"%Distance)
